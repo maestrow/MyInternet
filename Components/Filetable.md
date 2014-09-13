@@ -28,3 +28,11 @@
 			FileStreamGroup CONTAINS FILESTREAM (NAME = FileSystemMetaFilestream, FILENAME = 'z:\dbs\FileSystemMeta\Filestream')
 	FOR ATTACH
 
+## FAQ
+
+- Q: есть ли готовые front-end'ы? A: Не нашел
+- Q: как добавить существующие директории и диски к FileTable? A: [You cannot convert an existing folder to a FileTable](http://msdn.microsoft.com/en-us/library/gg492083.aspx).
+
+## Ссылки
+
+- [Processing nonstructured data using FILESTREAM and FileTable](http://sqlblog.com/blogs/john_paul_cook/archive/2013/09/07/processing-nonstructured-data-using-filestream-and-filetable.aspx) by John Paul Cook.
